@@ -16,7 +16,7 @@ class Gomoku:
                 if not input_by_window:
                     pos_x = int(input('x: '))  # 接受玩家的输入人
                     pos_y = int(input('y: '))
-                if 0 <= pos_x <= 14 and 0 <= pos_y <= 14:  # 判断这个格子能否落子
+                if 0 <= pos_x <= 14 and 0 <= pos_y <= 14:  # 判断这个格子能否落子23
                     if self.g_map[pos_x][pos_y] == 0:
                         self.g_map[pos_x][pos_y] = 1
                         self.cur_step += 1
