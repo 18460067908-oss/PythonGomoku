@@ -1,7 +1,7 @@
 class Gomoku:
 
     def __init__(self):
-        self.g_map = [[0 for y in range(15)] for x in range(15)]  # 当前的棋盘
+        self.g_map = [[0 for y in range(15)] for x in range(15)]  # 当前的棋盘11111
         self.cur_step = 0  # 步数
 
     def move_1step(self, input_by_window=False, pos_x=None, pos_y=None):
